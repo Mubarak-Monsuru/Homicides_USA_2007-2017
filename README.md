@@ -25,4 +25,9 @@ The above chart unveils recorded homicide cases in 50 U.S. cities and their corr
 ### 4.3
 ![image](https://github.com/Mubarak-Monsuru/Homicides_USA_2007-2017/assets/141940008/ff3b7651-661d-4d66-b94f-ea866da0f664)
 
-The analysis reveals nearly two-thirds of victims being black and a quarter of vivtims being either White or Hispanic. This accentuates the urgent need for government and law enforcement agencies to introduce more safety initiaves in predominantly black neighborhoods.
+The analysis reveals nearly two-thirds of victims being black and a quarter of victims being either White or Hispanic. This accentuates the urgent need for government and law enforcement agencies to introduce more safety initiaves in predominantly black neighborhoods.
+
+#### 4.4
+![image](https://github.com/Mubarak-Monsuru/Homicides_USA_2007-2017/assets/141940008/323ad498-9d48-4b73-81c3-463a95adaf20)
+
+Most homicide victims between 2007 and 2017 were individuals in their 20s, followed by those in their 30s, 10s, and 40s. This pattern raises significant concerns due to its potential direct impact on the economy when young adults and teenagers are being murdered. The loss of individuals in their prime working years not only has profound social and emotional repercussions but also leads to significant economic burden. It limits the potential workforce, productivity, and future contributions to the economy. Addressing the root causes of violence affecting these age groups is not just a matter of public safety but also a critical economic imperative for communities and policymakers.
