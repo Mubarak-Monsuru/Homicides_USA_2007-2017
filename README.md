@@ -13,7 +13,7 @@ A public dataset published by 'Joakim Arvidsson' on Kaggle <https://kaggle.com/d
 ## 4. Results
 
 ### 4.1
-![image](https://github.com/Mubarak-Monsuru/Homicides_USA_2007-2017/assets/141940008/4cb75de1-27d1-494e-9951-9b80c897c4e0)
+![image](https://github.com/Mubarak-Monsuru/Homicides_USA_2007-2017/assets/141940008/fca95b88-b167-4e5c-a66b-749787085edd)
 
 The analyis of homicide data spanning from 2007 to 2017 reveals an upward trend in the rate of homicides, and there is a significant drop in arrest rates during the same time period. In 2007, over 50% of homicide cases resulted in arrests, but by 2017, arrest percentage had plummeted to less than 40%.
 
