@@ -23,7 +23,7 @@ The analyis of homicide data spanning from 2007 to 2017 reveals an upward trend 
 The above chart unveils recorded homicide cases in U.S. cities and their corresponding arrest rates. The result shows glaring disparities in law enforcement outcomes and these cities exhibit varying levels of safety and justice.
 
 ### 4.3
-![image](https://github.com/Mubarak-Monsuru/Homicides_USA_2007-2017/assets/141940008/07fce833-e752-405f-8670-78ba2e69f7e7)
+![image](https://github.com/Mubarak-Monsuru/Homicides_USA_2007-2017/assets/141940008/044580e7-3365-4bf7-84b4-7bcf6fef7377)
 
 The analysis reveals nearly two-thirds of victims being black and a quarter of victims being either White or Hispanic. This accentuates the urgent need for government and law enforcement agencies to introduce more safety initiaves in predominantly black neighborhoods.
 
