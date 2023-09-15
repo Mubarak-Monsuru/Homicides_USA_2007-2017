@@ -1,7 +1,7 @@
 # Homicides_USA_2007-2017
 
 ## 1. Purpose of Study
-* Conduct detailed analysis on a dataset which entails recorded homicies in 50 cities in the United States between 2007 and 2017.
+* Conduct detailed analysis on a dataset of recorded homicies in the United States between 2007 and 2017.
 * Develop visulaizations to reveal insghts from analysis, such as, homicide and arrest rates between 2007 and 2017, homicide and arrest rates per city, victim demographics etc.
 
 ## 2. Dataset
@@ -18,9 +18,9 @@ A public dataset published by 'Joakim Arvidsson' on Kaggle <https://kaggle.com/d
 The analyis of homicide data spanning from 2007 to 2017 reveals an upward trend in the rate of homicides, and there is a significant drop in arrest rates during the same time period. In 2007, over 50% of homicide cases resulted in arrests, but by 2017, arrest percentage had plummeted to less than 40%.
 
 ### 4.2
-![image](https://github.com/Mubarak-Monsuru/Homicides_USA_2007-2017/assets/141940008/1b28bd31-5e03-493b-ab9f-4ec551af5fc5)
+![image](https://github.com/Mubarak-Monsuru/Homicides_USA_2007-2017/assets/141940008/31188ce5-8481-4960-8297-106dd98092ef)
 
-The above chart unveils recorded homicide cases in 50 U.S. cities and their corresponding arrest rates. The result shows glaring disparities in law enforcement outcomes and these cities exhibit varying levels of safety and justice.
+The above chart unveils recorded homicide cases in U.S. cities and their corresponding arrest rates. The result shows glaring disparities in law enforcement outcomes and these cities exhibit varying levels of safety and justice.
 
 ### 4.3
 ![image](https://github.com/Mubarak-Monsuru/Homicides_USA_2007-2017/assets/141940008/07fce833-e752-405f-8670-78ba2e69f7e7)
