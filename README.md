@@ -7,8 +7,22 @@
 ## 2. Dataset
 A public dataset published by 'Joakim Arvidsson' on Kaggle <https://kaggle.com/datasets/joebeachcapital/homicides>
 
-## 3. Tool
+## 3.Data Cleaning & Processing
+### 3.1 Tool
 * MS Excel
+
+### 3.2 Data Cleaning
+* Check for duplicates. Dataset does not contain duplicate rows
+* change columns 'lat' and 'lon' to 'latitude' and 'longitude' respectively.
+* Explore columns to identify blank cells, inappropriate values.
+* 2 columns (latitude and longitude) contain blank cells. 3 columns (victim_race, victim_age and victim_sex) contain cells with value 'unknown'
+* Remove rows that contain blanks cells and 'unknown'. This reduced number of rows from 52179 to 43397.
+
+### 3.3 Data Processing
+* Extract 3 columns (year, month, date)  from column 'reported_date' in custom format. Formula: =LEFT([@[reported_date]];4); =MID([@[reported_date]];5;2); =RIGHT([@[reported_date]];2).
+* Create a new column for 'reported_date'. Formula: =DATE([@year];[@month];[@date]).
+* Change columns 'victim_first' and 'victim_last' to 'first_name' and 'last_name'. Change case of values in both columns to proper case. Formula: =PROPER([@[last_name]]); =PROPER([@[first_name]]).
+* Create a new column 'age_demographic' from column 'victim_age' to categorise victims by age groups. Formula: =IF(J2<=12;"Child";IF(J2<=17;"Adolescent";IF(J2<=65;"Adult";"Old"))).
 
 ## 4. Results
 
