@@ -13,7 +13,7 @@ A public dataset published by 'Joakim Arvidsson' on Kaggle <https://kaggle.com/d
 
 ### 3.2 Data Cleaning
 * Check for duplicates. Dataset does not contain duplicate rows
-* change columns 'lat' and 'lon' to 'latitude' and 'longitude' respectively.
+* Change columns names 'lat' and 'lon' to 'latitude' and 'longitude' respectively.
 * Explore columns to identify blank cells, inappropriate values.
 * 2 columns (latitude and longitude) contain blank cells. 3 columns (victim_race, victim_age and victim_sex) contain cells with value 'unknown'
 * Remove rows that contain blanks cells and 'unknown'. This reduced number of rows from 52179 to 43397.
