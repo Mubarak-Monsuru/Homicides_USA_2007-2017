@@ -7,7 +7,7 @@
 ## 2. Dataset
 A public dataset published by 'Joakim Arvidsson' on Kaggle <https://kaggle.com/datasets/joebeachcapital/homicides>
 
-## 3.Data Cleaning & Processing
+## 3.Data Analysis
 ### 3.1 Tool
 * MS Excel
 
@@ -19,10 +19,24 @@ A public dataset published by 'Joakim Arvidsson' on Kaggle <https://kaggle.com/d
 * Remove rows that contain blanks cells and 'unknown'. This reduced number of rows from 52179 to 43397.
 
 ### 3.3 Data Processing
-* Extract 3 columns (year, month, date)  from column 'reported_date' in custom format. Formula: =LEFT([@[reported_date]];4); =MID([@[reported_date]];5;2); =RIGHT([@[reported_date]];2).
-* Create a new column for 'reported_date'. Formula: =DATE([@year];[@month];[@date]).
-* Change columns 'victim_first' and 'victim_last' to 'first_name' and 'last_name'. Change case of values in both columns to proper case. Formula: =PROPER([@[last_name]]); =PROPER([@[first_name]]).
-* Create a new column 'age_demographic' from column 'victim_age' to categorise victims by age groups. Formula: =IF(J2<=12;"Child";IF(J2<=17;"Adolescent";IF(J2<=65;"Adult";"Old"))).
+* Extract 3 columns (year, month, date)  from column 'reported_date' in custom format. Function: =LEFT([@[reported_date]];4); =MID([@[reported_date]];5;2); =RIGHT([@[reported_date]];2).
+* Create a new column for 'reported_date'. Function: =DATE([@year];[@month];[@date]).
+* Change columns 'victim_first' and 'victim_last' to 'first_name' and 'last_name'. Change case of values in both columns to proper case. Function: =PROPER([@[last_name]]); =PROPER([@[first_name]]).
+* Create a new column 'age_demographic' from column 'victim_age' to categorise victims by age groups. Function: =IF(J2<=12;"Child";IF(J2<=17;"Adolescent";IF(J2<=65;"Adult";"Old"))).
+
+### 3.3 Data Analysis
+
+Create a new table from dataset to represent yearly homicide cases and arrest percentage. This includes four coumns:
+* year, unique year bewteen 207 - 2017. Function: =UNIQUE(homicide_data34[year];FALSE;FALSE).
+* homicides, total homicides per year. Function: =COUNTIF(homicide_data34[year];S2).
+* closed_by_arrest, number of cases closed by arrest. Function: =COUNTIFS(homicide_data34[year];S2;homicide_data34[disposition];$Q$3).
+* arrest_percentage, yearly percentage of cases closed by arrest. Formula: =U2/T2.
+
+Create a second table from dataset to represent homicide cases and arrest percentage for each city. This also includes four columns:
+* city, cities of homicides. Function: =UNIQUE(homicide_data34[city];FALSE;FALSE).
+* homicides, total homicide cases per city. Function: =COUNTIF(homicide_data34[city];Y2).
+* closed_by_arrest, number of cases closed by arrest. Function: =COUNTIFS(homicide_data34[city];Y2;homicide_data34[disposition];$Q$3).
+* arrest_percentage, percentage of cases closed by arrest in each city. Formula: =AA2/Z2.
 
 ## 4. Results
 
