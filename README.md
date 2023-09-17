@@ -24,7 +24,7 @@ A public dataset published by 'Joakim Arvidsson' on Kaggle <https://kaggle.com/d
 * Change columns 'victim_first' and 'victim_last' to 'first_name' and 'last_name'. Change case of values in both columns to proper case. Function: =PROPER([@[last_name]]); =PROPER([@[first_name]]).
 * Create a new column 'age_demographic' from column 'victim_age' to categorise victims by age groups. Function: =IF(J2<=12;"Child";IF(J2<=17;"Adolescent";IF(J2<=65;"Adult";"Old"))).
 
-### 3.3 Data Analysis
+### 3.4 Data Analysis
 
 Create a new table from dataset to represent yearly homicide cases and arrest percentage. This includes four coumns:
 * year, unique year bewteen 207 - 2017. Function: =UNIQUE(homicide_data34[year];FALSE;FALSE).
